@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MICROCITY_PROJECT>
+  <DATA>
+    <DATASET type="SCENE">
+      <FILE>warehouse.m3d</FILE>
+      <PARAMETERS name="">
+        <OPTION type="text" id="NAME" name="Name">warehouse</OPTION>
+        <OPTION type="double" id="ROTATIONSPEED" name="Rotation Speed">1.000000</OPTION>
+        <OPTION type="double" id="TRANSLATIONSPEED" name="Translation Speed">0.300000</OPTION>
+        <OPTION type="color" id="BACKCOLOR" name="Background Color">R255 G255 B255</OPTION>
+        <OPTION type="double" id="CAMERAZFAR" name="Camera Z Far Value">3000.000000</OPTION>
+        <OPTION type="boolean" id="PRECISESELECT" name="Precise select mode">TRUE</OPTION>
+        <OPTION type="boolean" id="DRAWGRID" name="Graw Grid">TRUE</OPTION>
+        <OPTION type="double" id="GRIDDISTANCE" name="Grid Distance">1.000000</OPTION>
+        <OPTION type="integer" id="GRIDCOUNT" name="Grid Segment Count">100</OPTION>
+        <OPTION type="color" id="GRIDCOLOR" name="Grid Color">R192 G192 B192</OPTION>
+        <OPTION type="boolean" id="TRANSPARENT" name="Transparent">FALSE</OPTION>
+      </PARAMETERS>
+      <VIEWS>
+        <VIEW0 X="-1.883688" Y="3.819239" Z="-4.824011" TX="-1.486889" TY="3.406423" TZ="-4.004174">
+          <VIEW>
+            <POSX>127</POSX>
+            <POSY>36</POSY>
+            <SIZEX>897</SIZEX>
+            <SIZEY>709</SIZEY>
+          </VIEW>
+        </VIEW0>
+      </VIEWS>
+    </DATASET>
+  </DATA>
+  <MODULES>
+    <MODULE_LIB>
+      <FILE>warehouse.mcs</FILE>
+      <MODULE name="Simulation">
+        <PARAMETERS name="Simulation">
+          <DATA type="scene" id="Choose a scene" name="Choose a scene">D:\Dropbox\Documents\大连海事大学\教学相关\物流系统仿真\实验\数据及示例\warehouse\warehouse.m3d</DATA>
+          <OPTION type="double" id="Simulation speed" name="Simulation speed">1.000000</OPTION>
+        </PARAMETERS>
+      </MODULE>
+    </MODULE_LIB>
+  </MODULES>
+</MICROCITY_PROJECT>
